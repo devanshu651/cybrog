@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Manrope", sans-serif;
+  color: #f2f5f7;
+  background: #080a0c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --cyan: #77dbe4;
+  --line: rgba(175, 215, 219, 0.14);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #080a0c; }
+button, a { font: inherit; }
+button { cursor: pointer; }
+::selection { background: var(--cyan); color: #080a0c; }
